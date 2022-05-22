@@ -1,14 +1,15 @@
-import Button from '@mui/material/Button';
-import './App.css'
+import { Container } from "@mui/material";
+import "./App.css";
+import AuditLogForm from "./components/AuditLogForm";
 
 function App() {
-
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <Button variant="contained">Hello World</Button>
-    </div>
-  )
+    return (
+        <div className="App">
+            <Container sx={{ boxShadow: 2, my: 2, py: 3, borderRadius: 2 }}>
+                <AuditLogForm />
+            </Container>
+        </div>
+    );
 }
 
-export default App
+export default App;
