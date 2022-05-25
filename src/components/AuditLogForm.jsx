@@ -72,6 +72,7 @@ export default function AuditLogForm() {
             ...createdUpdatedDate
         };
         setValues(_newValues);
+        console.log(_newValues);
         // fake api call
         setTimeout(() => {
             setData(_newValues);
