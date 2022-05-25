@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Project Info
+Design a system (with React and MUI) that will store a form update history (audit log) into the database (Frontend only)
+** (Interview Task)
+
+# Getting Started
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
