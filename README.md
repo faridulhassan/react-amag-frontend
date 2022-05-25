@@ -2,6 +2,11 @@
 Design a system (with React and MUI) that will store a form update history (audit log) into the database (Frontend only)
 ** (Interview Task)
 
+##### Github:  [https://github.com/faridulhassan/react-amag-frontend](https://github.com/faridulhassan/react-amag-frontend)
+##### Live Preview: [https://react-amag-frontend.netlify.app](https://react-amag-frontend.netlify.app)
+
+
+=====================
 # Getting Started
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
