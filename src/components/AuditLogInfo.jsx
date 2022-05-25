@@ -10,8 +10,8 @@ export default function AuditLogInfo(props) {
                 Audit Log
             </Typography>
             <Divider sx={{ my: 1 }} />
-            {props.createdAt && <div>Created by Simon on {moment(props.createdAt).format("YYYY-MM-DD hh:mm:ss A")} </div>}
-            {props.updatedAt && <div>Updated by Nandita on {moment(props.updatedAt).format("YYYY-MM-DD hh:mm:ss A")}</div>}
+            {props.createdAt && <div>Created by Simon on {moment(new Date(props.createdAt)).format("YYYY-MM-DD hh:mm:ss A")} </div>}
+            {props.updatedAt && <div>Updated by Nandita on {moment(new Date(props.updatedAt)).format("YYYY-MM-DD hh:mm:ss A")}</div>}
         </Box>
     );
 }
